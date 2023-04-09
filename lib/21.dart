@@ -1,7 +1,5 @@
-import 'package:auto_route/auto_route.dart';
 import 'package:flutter/material.dart';
 
-@RoutePage()
 class TwoOne extends StatelessWidget {
   const TwoOne({super.key});
 
@@ -10,6 +8,3 @@ class TwoOne extends StatelessWidget {
     return Container();
   }
 }
-
-@RoutePage(name: 'TwoOneRouter')
-class TwoOneRouter extends AutoRouter {}
